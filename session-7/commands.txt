@@ -1,0 +1,17 @@
+10069  source ~/Installs/env/django17/bin/activate
+10070  cd ~/Projects
+10071  pip install django 
+10072  django-admin.py help 
+10073  django-admin.py startproject address_book 
+10074  cd address_book
+10076  python manage.py
+10077  python manage.py runserver
+10084  django-admin.py startapp contacts
+10085  cd contacts
+10087  cd .. 
+10093  python manage.py makemigrations
+10094  python manage.py migrate
+10097  sqlite3 db.sqlite3
+10099  python manage.py syncdb 
+10100  rs
+
