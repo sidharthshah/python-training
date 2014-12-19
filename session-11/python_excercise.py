@@ -1,6 +1,8 @@
 import string
 from functools import partial
 
+##Solutions to problems from: http://www.ling.gu.se/~lager/python_exercises.html
+
 def solution_to_7():
 	sentence = "I am testing"
 	words = sentence.split()
@@ -100,13 +102,13 @@ def solution_to_17():
 		return s
 
 	def is_palindrome(x):
-		clearned_string = clean_punctuation(x)
-		clearned_string = clearned_string.lower()
-		clearned_string = "".join(clearned_string.split())
+		cleaned_string = clean_punctuation(x)
+		cleaned_string = cleaned_string.lower()
+		cleaned_string = "".join(cleaned_string.split())
 
-		n = len(clearned_string) - 1
+		n = len(cleaned_string) - 1
 		for i in range(n):
-			if clearned_string[i] != clearned_string[n-i]:
+			if cleaned_string[i] != cleaned_string[n-i]:
 				return False
 		return True
 
