@@ -107,7 +107,7 @@ def solution_to_17():
 		cleaned_string = "".join(cleaned_string.split())
 
 		n = len(cleaned_string) - 1
-		for i in range(len(cleaned_string)):
+		for i in range(len(cleaned_string)/2):
 			if cleaned_string[i] != cleaned_string[n-i]:
 				return False
 		return True
