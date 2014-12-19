@@ -107,7 +107,7 @@ def solution_to_17():
 		cleaned_string = "".join(cleaned_string.split())
 
 		n = len(cleaned_string) - 1
-		for i in range(n):
+		for i in range(len(cleaned_string)):
 			if cleaned_string[i] != cleaned_string[n-i]:
 				return False
 		return True
@@ -115,6 +115,7 @@ def solution_to_17():
 	print "Solution to 17"
 	print is_palindrome("Go hang a salami I'm a lasagna hog.")
 	print is_palindrome("Sidharth Shah")
+
 if __name__ == "__main__":
 	solution_to_7()
 	solution_to_7_easy()
