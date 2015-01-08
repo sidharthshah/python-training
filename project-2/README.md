@@ -1,0 +1,1 @@
+Wrie a script that given a directory will traverse all sub-directories and files and prints names of all files with .txt extensionsio and prints the size of the file
