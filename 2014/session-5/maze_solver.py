@@ -3,8 +3,8 @@ import types
 import random
 from compiler.ast import flatten
 
-ROWS = 3
-COLS = 3
+ROWS = 10
+COLS = 10
 BLOCK_FILL_PERCENTAGE = float(0.20)
 
 def generate_random_xy():

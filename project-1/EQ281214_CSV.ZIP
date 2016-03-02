@@ -1993,8 +1993,17 @@ Listings</a></li>
 <div class="addarea">
 <div class="advertisebox">
 <iframe src="http://www.bseindia.com/news_section/index_news.htm" align="middle"
-frameborder="0" width="942" height="200" scrolling="no"></iframe>
+frameborder="0" width="650" height="200" scrolling="no"></iframe>
 </div>
+
+<div style="float:right; margin-top:5px; width:300px;">
+
+<iframe src="http://www.bseindia.com/news_section/index_static.htm" align="middle"
+frameborder="0" width="280" height="200" scrolling="no"></iframe>
+
+</div>
+
+
 </div>
 </div>
 <!--addarea -->
